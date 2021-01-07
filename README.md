@@ -1,6 +1,6 @@
 # mc_rtc_tutorial_controller 
 
-チュートリアル(https://jrl-umi3218.github.io/mc_rtc/tutorials/introduction/first-controller.html)を元に作った物
+チュートリアル(https://jrl-umi3218.github.io/mc_rtc/tutorials/introduction/first-controller.html)　を元に作った物
 チュートリアル内容やいじって勉強したものごとにブランチを分けていく(予定)
 
 # Requirement
