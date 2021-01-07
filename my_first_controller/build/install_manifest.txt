@@ -1,0 +1,2 @@
+/usr/lib/mc_controller/etc/MyFirstController.yaml
+/usr/lib/mc_controller/MyFirstController.so
