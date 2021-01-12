@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/masayuki-y/my_first_controller/src/MyFirstController.cpp
+MyFirstController.h
+/home/masayuki-y/my_first_controller/src/MyFirstController.h
+
+/home/masayuki-y/my_first_controller/src/MyFirstController.h
+mc_control/mc_controller.h
+-
+mc_tasks/CoMTask.h
+-
+mc_tasks/EndEffectorTask.h
+-
+api.h
+/home/masayuki-y/my_first_controller/src/api.h
+
+/home/masayuki-y/my_first_controller/src/api.h
+
