@@ -1,9 +1,12 @@
 #pragma once
 
 #include <mc_control/mc_controller.h>
+#include <mc_tasks/EndEffectorTask.h>
 
 
 #include "api.h"
+
+
 
 struct MyFirstController_DLLAPI MyFirstController : public mc_control::MCController
 {
@@ -12,6 +15,11 @@ struct MyFirstController_DLLAPI MyFirstController : public mc_control::MCControl
     bool run() override;
 
     void reset(const mc_control::ControllerResetData & reset_data) override;
+
+  
 private:
     mc_rtc::Configuration config_;
+
+    std::shared_ptr<mc_tasks::SurfaceTransformTask> handTask;
+    std::shared_ptr<mc_tasks::EndEffectorTask> efTask;
 };
