@@ -6,11 +6,11 @@ using std::endl;
 using std::ofstream;
 
 std::ofstream ofs_torque("/root/my_first_controller/src/jointTorque.csv");
-std::ofstream ofs_torque_part("/root/my_first_controller/src/jointTorque_part.csv");
-std::ofstream ofs_torque_three("/root/my_first_controller/src/jointTorque_three.csv");
-std::ofstream ofs_torque_wrist("/root/my_first_controller/src/jointTorque_wrist.csv");
-std::ofstream ofs_torque_elbow("/root/my_first_controller/src/jointTorque_elbow.csv");
-std::ofstream ofs_torque_sholder("/root/my_first_controller/src/jointTorque_sholder.csv");
+std::ofstream ofs_torque_part("/root/Record/Alljoints/jointTorque_part.csv");
+std::ofstream ofs_torque_three("/root/Record/joint/jointTorque_three.csv");
+std::ofstream ofs_torque_wrist("/root/Record/joint/jointTorque_wrist.csv");
+std::ofstream ofs_torque_elbow("/root/Record/joint/jjointTorque_elbow.csv");
+std::ofstream ofs_torque_sholder("/root//Record/joint/jointTorque_sholder.csv");
 std::ofstream ofs_jointNumber("/root/my_first_controller/src/jointNumber.csv");
 std::ofstream ofs_torque_botharm("/root/my_first_controller/src/torque_botharm.csv");
 
